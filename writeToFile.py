@@ -16,5 +16,11 @@ def get_unique_filename(base_name):
 def save_to_file(data, filename):
     checkedFilename = get_unique_filename(filename)
     with open(checkedFilename, 'w') as file:
-        for key, value in data.items():
-            file.write(f"{key}: {value}\n")
+        if isinstance(data, dict):
+            for key, value in data.items():
+                print(f"{key}: {value}\n")
+                file.write(f"{key}: {value}\n")
+        else:
+            for value in data:
+                print(f"{value}\n")
+                file.write(f"{value[0]}: {value[1]}\n")
