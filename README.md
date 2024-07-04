@@ -15,7 +15,9 @@
 ```python
 git clone project
 cd project
+pip install -r requirements.txt
 pyinstaller --onefile main.py
+cd dist
 main -fn "Jean Dupon"
 ```
 
