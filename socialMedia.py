@@ -61,7 +61,5 @@ def find_username(username):
         if found_sites:
             print(f"\nThe user \033[1m{username}\033[0m was found on {len(found_sites)} sites:")
             save_to_file(found_sites, "result.txt")
-            for site_name, uri_check in found_sites:
-                print(f"- \033[32m{site_name}\033[0m: {uri_check}")
         else:
             print(f"\nNo sites found for the user \033[1m{username}\033[0m.")
