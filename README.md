@@ -1,5 +1,24 @@
 # Passive
 
+## Table of Contents
+
+- [HowToRun](#howtorun)
+- [Audit](#audit)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Authors](#authors)
+
+## How to Run
+
+```python
+git clone project
+cd project
+pyinstaller --onefile main.py
+main -fn "Jean Dupon"
+```
+
 ## Project Description
 
 This project is made to fetch OSINT data from the network.
@@ -25,15 +44,6 @@ This project is made to fetch OSINT data from the network.
 #example:
 -u "@ChuckNorris"
 ```
-
-## Table of Contents
-
-- [Audit](#audit)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Authors](#authors)
 
 ## Audit
 
