@@ -43,9 +43,9 @@ To audit the program, follow the steps [here](https://github.com/01-edu/public/t
 
 Here's Images of the project:
 
-<img src="img/image1.gif" alt="image1" width="1000">
-<img src="img/image2.gif" alt="image2" width="1000">
-<img src="img/image3.gif" alt="image3" width="1000">
+<img src="img/image1.jpg" alt="image1" width="1000">
+<img src="img/image2.jpg" alt="image2" width="1000">
+<img src="img/image3.jpg" alt="image3" width="1000">
 
 ## Contributing
 
